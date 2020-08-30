@@ -1,0 +1,7 @@
+.new-class {
+    border: 1px solid;
+    margin: 2px 5px 7px 4px;
+    padding: 10px;
+    transform: translate(20);
+    position: relative;
+}
