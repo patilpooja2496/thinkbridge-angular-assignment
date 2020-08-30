@@ -10,6 +10,9 @@ export class ItemListService {
   getItemList(): any {
     return this.http.get('https://5f311956373bc7001635f496.mockapi.io/Item');
   }
+  getAllItemList(): any {
+    return this.http.get('https://5f311956373bc7001635f496.mockapi.io/Item/all');
+  }
   // call for Post request
   postItem(item): any {
     return this.http.post('https://5f311956373bc7001635f496.mockapi.io/Item', item);
